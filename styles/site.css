@@ -1,0 +1,17 @@
+.divAudioPlayer {
+
+	height: 300px;
+	background-color: gray; 
+	
+}
+
+.categoryTile{
+	height: 300px;
+	background-color: red;
+}
+
+.categoryTitle{
+	padding: 50px;
+	border: 1px dashed gray;
+	border-radius: 25px;
+}
