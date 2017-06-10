@@ -7,11 +7,32 @@
 
 .categoryTile{
 	height: 300px;
-	background-color: red;
+	
 }
 
 .categoryTitle{
-	padding: 50px;
-	border: 1px dashed gray;
-	border-radius: 25px;
+	padding: 5px;
+	
+}
+
+.categoryTile img{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-bg{
+	background-image: url(./img/header-bg-1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.navbar{
+	color:white !important; 
+}
+.body-content{
+	padding-bottom: 150px;
+}
+
+.navbar a{
+	color: white !important;
 }
