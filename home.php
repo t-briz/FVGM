@@ -25,27 +25,26 @@
 
 			<div class="row">
 				<div class="col col-md-12">
-					<h1>Free Video Game Music</h1>
 					<h2>Listen and download music and sounds to use in your indie or commercial game dev projects.</h2>					
 				</div>
 			</div>
-			
+			<!--
 			<div id="divAudioPlayer" class="divAudioPlayer row">
 				<div class="col col-md-12">
 					
 				</div>
 			</div>
-			
+			-->
 			<div class="row">
 				<div class="col col-md-6 categoryTile">
 					<div class="categoryTitle">
-						Music
+						<img id ="music-cat" src="./styles/img/music-block-1.png" />
 					</div>
 				</div>
 
 				<div class="col col-md-6 categoryTile">
 					<div class="categoryTitle">
-						SFX
+						<img id="sfx-cat" src="./styles/img/sfx-block-1.png" />
 					</div>
 				</div>
 			</div>
