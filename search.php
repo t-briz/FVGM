@@ -16,6 +16,7 @@
 	
 		<!-- custom css -->
 		<link rel="stylesheet" href="styles/site.css" />
+		<link rel="stylesheet" href="styles/audioplayer.css" />
 		
 	</head>
 	<body style="padding-top:65px;">	
@@ -25,28 +26,26 @@
 
 			<div class="row">
 				<div class="col col-md-12">
-					<h1>Free Video Game Music</h1>
-					<h2>Listen and download music and sounds to use in your indie or commercial game dev projects.</h2>					
+					<h1>Search</h1>
+					<h2>Search for sound effects and music.</h2>					
 				</div>
 			</div>
 			
-			<div id="divAudioPlayer" class="divAudioPlayer row">
+			<div id="" class="row">
 				<div class="col col-md-12">
 					
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col col-md-6 categoryTile">
-					<div class="categoryTitle">
-						Music
-					</div>
-				</div>
+					<div id="wrapper">
+						<audio preload="auto" controls>
+							<source src="audio/sfx/BlueDucks_FourFlossFiveSix.wav">
+							<source src="audio/sfx/BlueDucks_FourFlossFiveSix.mp3">
+							<source src="audio/sfx/BlueDucks_FourFlossFiveSix.ogg">
+						</audio>
+						<script src="script/jquery.js"></script>
+						<script src="script/audioplayer.js"></script>
+						<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
 
-				<div class="col col-md-6 categoryTile">
-					<div class="categoryTitle">
-						SFX
-					</div>
+					</div>					
+					
 				</div>
 			</div>
 			
