@@ -26,7 +26,7 @@
 			<div class="row">
 				<div class="col col-md-12">
 					<h1>Free Video Game Music</h1>
-					<h2>Download music and sounds to use in your indie or commercial game dev projects.</h2>					
+					<h2>Listen and download music and sounds to use in your indie or commercial game dev projects.</h2>					
 				</div>
 			</div>
 			
